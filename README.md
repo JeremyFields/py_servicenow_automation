@@ -9,4 +9,4 @@ I will edit this list to detail any script dependencies. <br>
 ### ---change request automation---
     Main script     : get_changes_dev.py    --> Main script imports and utilizes both of the imported scripts.  
     Imported scripts: create_outlook_meeting.py  
-                    : check_calendar.py
+
