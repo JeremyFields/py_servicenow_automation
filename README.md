@@ -9,12 +9,12 @@ add to the dictionary. Queries the sys_user table to add the "assigned to" user 
 Lastly, calls the "create_outlook_meeting.py" script to create meetings in outlook for the 
 change requests that were found to be assigned to the groups. <br>
 
-Libraries needed:
-pysnow==0.7.17
-pywin32==305
-from datetime import datetime, timedelta
-import create_outlook_meeting
-import json
+Libraries needed:<br>
+pysnow==0.7.17<br>
+pywin32==305<br>
+from datetime import datetime, timedelta<br>
+import create_outlook_meeting<br>
+import json<br>
 
 ### ---change request automation---
     Main script     : get_change_details.py    --> Main script imports and utilizes both of the imported scripts.  
